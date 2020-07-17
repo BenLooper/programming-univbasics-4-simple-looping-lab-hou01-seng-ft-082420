@@ -24,7 +24,7 @@ end
     
 def return_string_array(array)
   for i in array
-    i.to_s 
+    array[i] = i.to_s 
   end
 end
 
