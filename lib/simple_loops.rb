@@ -26,6 +26,7 @@ def return_string_array(array)
   new_array = []
   for i in array
     new_array.append(array[i].to_s)
+  puts new_array
   end
 end
 
